@@ -26,6 +26,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ image, quote, author, has
         <blockquote className="w-full text-base text-[rgba(18,23,20,1)] font-medium leading-6">
           {quote}
         </blockquote>
+        <br></br>
         <cite className="w-full text-sm text-[rgba(12,39,70,1)] font-semibold mt-2.5 not-italic">
           {author}
         </cite>

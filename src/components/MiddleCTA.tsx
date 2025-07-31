@@ -4,11 +4,11 @@ const MiddleCTA = () => {
   return (
     <section className="bg-black min-h-[266px] w-full text-base text-white text-center">
       <div className="w-full flex-1 px-4 py-6">
-        <header className="w-full text-[25px] font-extrabold leading-[1.6]">
+        <header className="w-full text-[25px] font-extrabold leading-[1.6] tracking-[0.5px]">
           <h2>Sua virada começa agora</h2>
         </header>
         
-        <p className="min-h-[50px] w-full font-medium leading-[25px] mt-3.5">
+        <p className="min-h-[50px] w-full font-medium leading-[25px] mt-3.5 tracking-[0.5px]">
           Um guia direto para quem quer
           <br />
           <span className="font-bold">mudar de vida</span> com{" "}

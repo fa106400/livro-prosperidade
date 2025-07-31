@@ -12,7 +12,7 @@ const FinalCTA = () => {
   return (
     <section className="bg-white w-full">
       <div className="w-full px-4 py-[30px]">
-        <header className="w-full text-[32px] text-[rgba(18,23,20,1)] font-bold text-center leading-10">
+        <header className="w-full text-[28px] text-[rgba(18,23,20,1)] font-bold text-center leading-10">
           <h2>Comece sua jornada agora mesmo!</h2>
         </header>
         
@@ -23,10 +23,10 @@ const FinalCTA = () => {
             por <span className="font-bold">apenas:</span>
           </p>
           
-          <div className="w-full text-2xl text-[rgba(225,29,29,1)] font-bold leading-loose mt-[5px]">
+          <div className="w-full text-2xl text-[rgba(225,29,29,1)] font-bold leading-none mt-[5px]">
             <div className="w-full">
               <span className="text-[32px]">R$</span>{" "}
-              <span className="text-[48px] text-[rgba(225,29,29,1)]">19,99</span>
+              <span className="text-[56px] text-[rgba(225,29,29,1)]">19,99</span>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ const FinalCTA = () => {
         </div>
         
         <div className="w-full mt-6">
-          <p className="w-full text-sm text-[rgba(18,23,20,1)] font-semibold text-center leading-10">
+          <p className="w-full text-[16px] text-[rgba(18,23,20,1)] font-semibold text-center leading-10 tracking-[0.5px]">
             PAGAMENTO 100% SEGURO
           </p>
           

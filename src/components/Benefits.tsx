@@ -92,7 +92,7 @@ const Benefits = () => {
               <BenefitCard {...benefit} />
               {index < benefits.length - 1 && (
                 <div className="self-center flex w-[270px] max-w-full flex-col items-stretch justify-center mt-2.5 p-2.5">
-                  <hr className="border min-h-px w-full border-black border-solid" />
+                  <hr className="border-0.5 min-h-px w-full border-gray-250 border-solid" />
                 </div>
               )}
             </React.Fragment>

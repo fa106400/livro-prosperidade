@@ -12,7 +12,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({ icon, title, subtitle, iconPo
   return (
     <article className="flex min-h-[145px] w-full gap-3 pl-4 pr-[15px] pt-4 pb-[9px] rounded-lg">
       {iconPosition === 'left' && (
-        <div className="flex min-h-[120px] flex-col items-stretch justify-center w-[120px] px-2.5 py-[11px]">
+        <div className="flex min-h-[120px] flex-col items-stretch justify-center w-1/3 px-2.5 py-[11px]">
           <img
             src={icon}
             alt={alt}
@@ -21,7 +21,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({ icon, title, subtitle, iconPo
         </div>
       )}
       
-      <div className="min-h-[120px] text-[rgba(18,23,20,1)] w-[195px]">
+      <div className="min-h-[120px] text-[rgba(18,23,20,1)] w-2/3">
         <h3 className="w-full text-xl font-bold leading-none">{title}</h3>
         <p className="w-full text-base font-normal leading-[25px] mt-[15px]">{subtitle}</p>
       </div>
@@ -30,7 +30,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({ icon, title, subtitle, iconPo
         <img
           src={icon}
           alt={alt}
-          className="aspect-[1] object-contain w-[120px] shrink-0"
+          className="aspect-[1] object-contain w-1/3 shrink-0"
         />
       )}
     </article>
@@ -91,7 +91,7 @@ const Benefits = () => {
             <React.Fragment key={index}>
               <BenefitCard {...benefit} />
               {index < benefits.length - 1 && (
-                <div className="self-center flex w-[270px] max-w-full flex-col items-stretch justify-center mt-2.5 p-2.5">
+                <div className="self-center flex w-full max-w-full flex-col items-stretch justify-center mt-2.5 p-2.5">
                   <hr className="border-0.5 min-h-px w-full border-gray-250 border-solid" />
                 </div>
               )}

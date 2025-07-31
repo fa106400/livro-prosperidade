@@ -66,7 +66,7 @@ const Testimonials = () => {
       </header>
       
       <div className="flex w-full mt-[5px]">
-        <div className="overflow-x-auto flex min-w-60 w-[374px] items-stretch gap-4 pl-4 py-4">
+        <div className="overflow-x-auto flex min-w-60 w-full items-stretch gap-4 pl-4 py-4">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
           ))}

@@ -43,7 +43,7 @@ const Hero = () => {
           
           <div className="self-center w-[358px] max-w-full mt-[30px]">
             <header className="min-h-[100px] w-full text-4xl text-white text-center leading-none">
-              <h1 className="font-medium tracking-[0.5px]">Desbloqueie sua</h1>
+              <h1 className="font-medium tracking-[2px]">Desbloqueie sua</h1>
               <h1 className="font-extrabold tracking-[5px]">prosperidade</h1>
             </header>
             
@@ -82,7 +82,7 @@ const Hero = () => {
               <img
                 src="/images/amazon-logo.png"
                 alt="Amazon logo"
-                className="aspect-[3.25] object-contain w-[78px]"
+                className="aspect-[3.25] object-contain w-[78px] transform translate-y-3"
               />
             </div>
             <img

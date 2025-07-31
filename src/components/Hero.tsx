@@ -11,27 +11,27 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-0.5 justify-center">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b3ccfe93dcf31e53628b291c2ce1ee89dc79ce32?placeholderIfAbsent=true"
+                src="/images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b3ccfe93dcf31e53628b291c2ce1ee89dc79ce32?placeholderIfAbsent=true"
+                src="/images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b3ccfe93dcf31e53628b291c2ce1ee89dc79ce32?placeholderIfAbsent=true"
+                src="/images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b3ccfe93dcf31e53628b291c2ce1ee89dc79ce32?placeholderIfAbsent=true"
+                src="/images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b3ccfe93dcf31e53628b291c2ce1ee89dc79ce32?placeholderIfAbsent=true"
+                src="/images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
@@ -62,7 +62,7 @@ const Hero = () => {
               <div className="flex min-h-[241px] flex-col items-stretch justify-center flex-1 shrink basis-5 my-auto">
                 <div className="flex w-full flex-col items-stretch justify-center">
                   <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/2b30eb657654ccdf4f6f45a5ab158660c71c9a45?placeholderIfAbsent=true"
+                    src="/images/book-cover.png"
                     alt="Book cover"
                     className="aspect-[0.83] object-contain w-[189px]"
                   />
@@ -80,23 +80,23 @@ const Hero = () => {
           <div className="shadow-[3px_3px_2px_rgba(255,255,255,0.25)] flex w-full items-center gap-[25px] justify-center mt-[30px] py-[15px]">
             <div className="self-stretch min-h-[35px] w-[78px] my-auto">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/d758bb878d15eb7459ac4d2509a8b31855e1dd2b?placeholderIfAbsent=true"
+                src="/images/amazon-logo.png"
                 alt="Amazon logo"
                 className="aspect-[3.25] object-contain w-[78px]"
               />
             </div>
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/09a88e09822885a8486801b50fd210bdeb739267?placeholderIfAbsent=true"
+              src="/images/platform-logo1.png"
               alt="Platform logo"
               className="aspect-[2.96] object-contain w-[65px] self-stretch shrink-0 my-auto"
             />
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/fe8733cb3a17c2103a66a0c114a48132504764c7?placeholderIfAbsent=true"
+              src="/images/platform-logo2.png"
               alt="Platform logo"
               className="aspect-[2.54] object-contain w-[61px] self-stretch shrink-0 my-auto"
             />
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/9fc1fa4667cc8083a03fddb0f087bbe18cc6c84d?placeholderIfAbsent=true"
+              src="/images/platform-logo3.png"
               alt="Platform logo"
               className="aspect-[1.64] object-contain w-[41px] self-stretch shrink-0 my-auto"
             />

@@ -28,15 +28,15 @@ const QASection = () => {
   const qaItems = [
     {
       text: "Conteúdo é baseado em princípios cristãos e valores de fé, com linguagem respeitosa e inspiradora.",
-      checkIcon: "https://api.builder.io/api/v1/image/assets/TEMP/7eebba5b41a37d3327c83763c36597e3a7472cc2?placeholderIfAbsent=true"
+      checkIcon: "/images/check-icon.svg"
     },
     {
       text: "Não promete fórmulas mágicas. Propõe uma transformação de dentro para fora.",
-      checkIcon: "https://api.builder.io/api/v1/image/assets/TEMP/2ac5496dde5640e9c3ebd1d777bf4a0efcb5ff48?placeholderIfAbsent=true"
+      checkIcon: "/images/check-icon.svg"
     },
     {
       text: "Receba o livro em PDF, logo após a compra. Leitura fácil no celular ou computador.",
-      checkIcon: "https://api.builder.io/api/v1/image/assets/TEMP/7eebba5b41a37d3327c83763c36597e3a7472cc2?placeholderIfAbsent=true"
+      checkIcon: "/images/check-icon.svg"
     }
   ];
 

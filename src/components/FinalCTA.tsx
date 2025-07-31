@@ -2,11 +2,11 @@ import React from 'react';
 
 const FinalCTA = () => {
   const paymentIcons = [
-    "https://api.builder.io/api/v1/image/assets/TEMP/08342c0edb20a7fb4f0d43aeea5d3e4fc54c0914?placeholderIfAbsent=true",
-    "https://api.builder.io/api/v1/image/assets/TEMP/89e0bd37fdd8e3099548ba8cb08126e007fe0d73?placeholderIfAbsent=true",
-    "https://api.builder.io/api/v1/image/assets/TEMP/3f04817e48de611ed7001d6858d9ae6bda65869f?placeholderIfAbsent=true",
-    "https://api.builder.io/api/v1/image/assets/TEMP/3b70cf8775ed03477fe37ee3a2e9a494eb2876f5?placeholderIfAbsent=true",
-    "https://api.builder.io/api/v1/image/assets/TEMP/fe43947129dd335331f18c96f49eaaebd3077f15?placeholderIfAbsent=true"
+    "/images/payment-1.svg",
+    "/images/payment-2.svg",
+    "/images/payment-3.svg",
+    "/images/payment-4.svg",
+    "/images/payment-5.svg"
   ];
 
   return (

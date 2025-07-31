@@ -40,28 +40,28 @@ const BenefitCard: React.FC<BenefitCardProps> = ({ icon, title, subtitle, iconPo
 const Benefits = () => {
   const benefits = [
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/952afd1e30376eb4b26521d35f1fbebc47a4457e?placeholderIfAbsent=true",
+      icon: "/images/benefit-1.png",
       title: "Saia da escassez",
       subtitle: "Aprenda a alinhar espiritualidade e riqueza com propósito.",
       iconPosition: 'left' as const,
       alt: "Escassez icon"
     },
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/89e5335bc1a228177d1cfddddcfb21f88820efe6?placeholderIfAbsent=true",
+      icon: "/images/benefit-2.png",
       title: "Atraia Abundância",
       subtitle: "Descubra o que está bloqueando sua vida.",
       iconPosition: 'right' as const,
       alt: "Abundância icon"
     },
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/c1d242110354009aa6ce2cffd064a4af38cdb5e0?placeholderIfAbsent=true",
+      icon: "/images/benefit-3.png",
       title: "Pratique junto",
       subtitle: "Aprenda estratégias práticas para manifestar prosperidade.",
       iconPosition: 'left' as const,
       alt: "Prática icon"
     },
     {
-      icon: "https://api.builder.io/api/v1/image/assets/TEMP/a31a6b7bc4821f89cb6b33ffd9eafb5b15c7276e?placeholderIfAbsent=true",
+      icon: "/images/benefit-4.png",
       title: "Aprofunde Sua Fé",
       subtitle: "Fortaleça sua conexão com o divino.",
       iconPosition: 'right' as const,

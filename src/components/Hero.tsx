@@ -77,7 +77,7 @@ const Hero = () => {
             </span>
           </button>
           
-          <div className="shadow-[3px_3px_2px_rgba(255,255,255,0.25)] flex w-full items-center gap-[25px] justify-center mt-[30px] py-[15px]">
+          <div className="flex w-full items-center gap-[25px] justify-center mt-[30px] py-[15px]">
             <div className="self-stretch min-h-[35px] w-[78px] my-auto">
               <img
                 src="./images/amazon-logo.png"

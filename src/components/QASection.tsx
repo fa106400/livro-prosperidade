@@ -28,15 +28,15 @@ const QASection = () => {
   const qaItems = [
     {
       text: "Conteúdo é baseado em princípios cristãos e valores de fé, com linguagem respeitosa e inspiradora.",
-      checkIcon: "/images/check-icon.svg"
+      checkIcon: "./images/check-icon.svg"
     },
     {
       text: "Não promete fórmulas mágicas. Propõe uma transformação de dentro para fora.",
-      checkIcon: "/images/check-icon.svg"
+      checkIcon: "./images/check-icon.svg"
     },
     {
       text: "Receba o livro em PDF, logo após a compra. Leitura fácil no celular ou computador.",
-      checkIcon: "/images/check-icon.svg"
+      checkIcon: "./images/check-icon.svg"
     }
   ];
 

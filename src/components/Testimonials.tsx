@@ -38,22 +38,22 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ image, quote, author, has
 const Testimonials = () => {
   const testimonials = [
     {
-      image: "/images/quotes.svg",
+      image: "./images/quotes.svg",
       quote: '"Sempre tive fé, mas esse livro me mostrou que é possível alinhar espiritualidade com ações práticas. Já estou colhendo frutos!"',
       author: "Luiza, 52 anos – Goiânia/GO"
     },
     {
-      image: "/images/quotes.svg",
+      image: "./images/quotes.svg",
       quote: '"Eu sempre lutei com minhas finanças, mas este livro me deu as ferramentas e a mentalidade para atrair abundância para minha vida."',
       author: "Paulo, 47 anos – Recife/PE"
     },
     {
-      image: "/images/quotes.svg",
+      image: "./images/quotes.svg",
       quote: '"As percepções do Dr. Abreu são profundas e práticas. Este livro é uma leitura obrigatória para quem busca crescimento espiritual e financeiro."',
       author: "Tânia, 39 anos – Contagem/MG"
     },
     {
-      image: "/images/quotes.svg",
+      image: "./images/quotes.svg",
       quote: '"Comecei a aplicar o que aprendi no livro e minha vida começou a mudar. Deus realmente usa ferramentas simples pra grandes transformações."',
       author: "Marcos, 45 anos – Campinas/SP"
     }

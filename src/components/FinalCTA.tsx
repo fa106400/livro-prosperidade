@@ -2,11 +2,11 @@ import React from 'react';
 
 const FinalCTA = () => {
   const paymentIcons = [
-    "/images/payment-1.svg",
-    "/images/payment-2.svg",
-    "/images/payment-3.svg",
-    "/images/payment-4.svg",
-    "/images/payment-5.svg"
+    "./images/payment-1.svg",
+    "./images/payment-2.svg",
+    "./images/payment-3.svg",
+    "./images/payment-4.svg",
+    "./images/payment-5.svg"
   ];
 
   return (

@@ -11,27 +11,27 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-0.5 justify-center">
               <img
-                src="/images/star.svg"
+                src="./images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="/images/star.svg"
+                src="./images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="/images/star.svg"
+                src="./images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="/images/star.svg"
+                src="./images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
               <img
-                src="/images/star.svg"
+                src="./images/star.svg"
                 alt="Star rating"
                 className="aspect-[1] object-contain w-4 self-stretch shrink-0 my-auto"
               />
@@ -62,7 +62,7 @@ const Hero = () => {
               <div className="flex min-h-[241px] flex-col items-stretch justify-center flex-1 shrink basis-5 my-auto">
                 <div className="flex w-full flex-col items-stretch justify-center">
                   <img
-                    src="/images/book-cover.png"
+                    src="./images/book-cover.png"
                     alt="Book cover"
                     className="aspect-[0.83] object-contain w-[189px]"
                   />
@@ -80,23 +80,23 @@ const Hero = () => {
           <div className="shadow-[3px_3px_2px_rgba(255,255,255,0.25)] flex w-full items-center gap-[25px] justify-center mt-[30px] py-[15px]">
             <div className="self-stretch min-h-[35px] w-[78px] my-auto">
               <img
-                src="/images/amazon-logo.png"
+                src="./images/amazon-logo.png"
                 alt="Amazon logo"
                 className="aspect-[3.25] object-contain w-[78px] transform translate-y-3"
               />
             </div>
             <img
-              src="/images/platform-logo1.png"
+              src="./images/platform-logo1.png"
               alt="Platform logo"
               className="aspect-[2.96] object-contain w-[65px] self-stretch shrink-0 my-auto"
             />
             <img
-              src="/images/platform-logo2.png"
+              src="./images/platform-logo2.png"
               alt="Platform logo"
               className="aspect-[2.54] object-contain w-[61px] self-stretch shrink-0 my-auto"
             />
             <img
-              src="/images/platform-logo3.png"
+              src="./images/platform-logo3.png"
               alt="Platform logo"
               className="aspect-[1.64] object-contain w-[41px] self-stretch shrink-0 my-auto"
             />

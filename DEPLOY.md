@@ -2,7 +2,7 @@
 
 ## Configurações Realizadas
 
-1. **Vite Config**: Adicionado `base: '/lp-livro-prosperidade/'` para produção
+1. **Vite Config**: Adicionado `base: '/livro-prosperidade/'` para produção
 2. **React Router**: Alterado de `BrowserRouter` para `HashRouter` para compatibilidade com GitHub Pages
 3. **Arquivo .nojekyll**: Criado na pasta `public` para evitar processamento Jekyll
 
@@ -14,7 +14,8 @@ npm run deploy
 
 ## URL da Aplicação
 
-https://fa106400.github.io/lp-livro-prosperidade
+https://fa106400.github.io/livro-prosperidade
+http://raposinha.xyz/livro-prosperidade/
 
 ## Solução de Problemas
 

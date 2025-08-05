@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fa106400.github.io/lp-livro-prosperidade",
+  "homepage": "https://fa106400.github.io/livro-prosperidade",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

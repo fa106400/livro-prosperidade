@@ -19,14 +19,14 @@ const FinalCTA = () => {
         <div className="w-full text-center mt-6">
           <p className="w-full text-base text-[rgba(18,23,20,1)] font-medium leading-10">
             De:{" "}
-            <span className="line-through">R$ 69,99</span>{" "}
+            <span className="line-through">R$ 69,90</span>{" "}
             por <span className="font-bold">apenas:</span>
           </p>
           
           <div className="w-full text-2xl text-[rgba(225,29,29,1)] font-bold leading-none mt-[5px]">
             <div className="w-full">
               <span className="text-[32px]">R$</span>{" "}
-              <span className="text-[56px] text-[rgba(225,29,29,1)]">19,99</span>
+              <span className="text-[56px] text-[rgba(225,29,29,1)]">19,90</span>
             </div>
           </div>
         </div>

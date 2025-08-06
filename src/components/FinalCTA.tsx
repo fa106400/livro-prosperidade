@@ -1,6 +1,10 @@
 import React from 'react';
 
 const FinalCTA = () => {
+  const handleClick = () => {
+    window.location.href = 'https://pay.kiwify.com.br/T8j6OGz';
+  };
+
   const paymentIcons = [
     "./images/payment-1.svg",
     "./images/payment-2.svg",
@@ -33,7 +37,10 @@ const FinalCTA = () => {
         
         <div className="flex w-full text-base text-[rgba(18,23,20,1)] font-bold text-center leading-none justify-center mt-6">
           <div className="flex min-w-60 w-[280px] justify-center">
-            <button className="bg-[rgba(20,226,90,1)] shadow-[2px_4px_4px_rgba(0,0,0,0.25)] flex min-w-[84px] min-h-[52px] w-[280px] items-center overflow-hidden justify-center max-w-[480px] px-4 rounded-[100px] hover:bg-[rgba(18,203,81,1)] transition-colors">
+            <button 
+              onClick={handleClick}
+              className="bg-[rgba(20,226,90,1)] shadow-[2px_4px_4px_rgba(0,0,0,0.25)] flex min-w-[84px] min-h-[52px] w-[280px] items-center overflow-hidden justify-center max-w-[480px] px-4 rounded-[100px] hover:bg-[rgba(18,203,81,1)] transition-colors cursor-pointer"
+            >
               <span className="self-stretch w-[180px] overflow-hidden my-auto">
                 Quero meu livro
               </span>

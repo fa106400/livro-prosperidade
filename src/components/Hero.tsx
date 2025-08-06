@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Hero = () => {
+  const handleClick = () => {
+    window.location.href = 'https://pay.kiwify.com.br/T8j6OGz';
+  };
+
   return (
     <section className="bg-[rgba(12,39,70,1)] w-full">
       <div className="w-full">
@@ -71,7 +75,10 @@ const Hero = () => {
             </div>
           </div>
           
-          <button className="bg-[rgba(20,226,90,1)] shadow-[2px_4px_4px_rgba(0,0,0,0.25)] self-center flex min-w-[84px] min-h-[52px] w-[280px] max-w-full items-center overflow-hidden text-base text-[rgba(18,23,20,1)] font-bold text-center leading-none justify-center mt-[30px] px-4 rounded-[25px] hover:bg-[rgba(18,203,81,1)] transition-colors">
+          <button 
+            onClick={handleClick}
+            className="bg-[rgba(20,226,90,1)] shadow-[2px_4px_4px_rgba(0,0,0,0.25)] self-center flex min-w-[84px] min-h-[52px] w-[280px] max-w-full items-center overflow-hidden text-base text-[rgba(18,23,20,1)] font-bold text-center leading-none justify-center mt-[30px] px-4 rounded-[25px] hover:bg-[rgba(18,203,81,1)] transition-colors cursor-pointer"
+          >
             <span className="self-stretch w-[136px] overflow-hidden my-auto">
               Quero meu livro
             </span>

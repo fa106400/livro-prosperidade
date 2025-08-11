@@ -84,7 +84,7 @@ const Hero = () => {
             </span>
           </button>
           
-          <div className="flex w-full items-center gap-[65px] justify-center mt-[30px] py-[15px]">
+          <div className="flex w-full items-center gap-[25px] justify-center mt-[30px] py-[15px]">
             <div className="self-stretch min-h-[35px] w-[78px] my-auto">
               <img
                 src="./images/amazon-logo.png"
@@ -94,13 +94,18 @@ const Hero = () => {
             </div>
             <img
               src="./images/platform-logo1.png"
-              alt="Platform logo"
+              alt="Kindle logo"
               className="aspect-[2.96] object-contain w-[65px] self-stretch shrink-0 my-auto"
             />
             <img
-              src="./images/platform-logo2.png"
-              alt="Platform logo"
-              className="aspect-[2.54] object-contain w-[61px] self-stretch shrink-0 my-auto"
+              src="./images/bestseller-white.png"
+              alt="Best seller logo"
+              className="aspect-[1.54] object-contain w-[71px] self-stretch shrink-0 my-auto"
+            />
+            <img
+              src="./images/platform-logo3.png"
+              alt="Livraria logo"
+              className="aspect-[1.64] object-contain w-[41px] self-stretch shrink-0 my-auto"
             />
           </div>
         </div>

@@ -7,12 +7,12 @@ const MiddleCTA = () => {
 
   return (
     <section className="bg-black w-full text-white text-center py-8 px-4 flex flex-col items-center">
-      <h2 className="text-2xl md:text-3xl font-extrabold mb-3">Não é apenas um livro!</h2>
+      <h2 className="text-[25px] font-extrabold mb-3">Não é apenas um livro!</h2>
       <p className="max-w-xl mx-auto text-base md:text-lg mb-6 font-medium">
-        Programa <span className="font-bold">completo de 100 dias</span> que une inspiração, fé e ação para <span className="font-bold">transformar</span> sua vida de dentro para fora.
+        Programa <span className="font-bold">completo</span> de <span className="font-bold">100 dias</span> que une inspiração, fé e ação para <span className="font-bold">transformar</span> sua vida de dentro para fora.
       </p>
       <div className="mb-6">
-        <span className="text-lg font-bold">Peça <span className="font-extrabold">hoje mesmo</span> e receba também:</span>
+        <span className="text-[20px] font-bold">Peça <span className="font-extrabold">hoje mesmo</span> e receba também:</span>
       </div>
       <ul className="flex flex-col gap-3 items-start mx-auto mb-8 max-w-md">
         <li className="flex items-center text-left text-base md:text-lg">

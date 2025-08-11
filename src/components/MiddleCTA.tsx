@@ -16,15 +16,15 @@ const MiddleCTA = () => {
       </div>
       <ul className="flex flex-col gap-3 items-start mx-auto mb-8 max-w-md">
         <li className="flex items-center text-left text-base md:text-lg">
-          <img src="./public/images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
+          <img src="./images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
           Livro: Orações de Poder
         </li>
         <li className="flex items-center text-left text-base md:text-lg">
-          <img src="./public/images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
+          <img src="./images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
           Livro: Afirmações para a Abundância
         </li>
         <li className="flex items-center text-left text-base md:text-lg">
-          <img src="./public/images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
+          <img src="./images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
           Planner de 100 dias para o Sucesso
         </li>
       </ul>

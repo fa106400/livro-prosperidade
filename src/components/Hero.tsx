@@ -9,6 +9,13 @@ const Hero = () => {
     <section className="bg-[rgba(12,39,70,1)] w-full">
       <div className="w-full">
         <div className="flex min-h-[480px] w-full flex-col overflow-hidden items-stretch justify-center py-[35px]">
+          
+          <div className="flex w-full gap-[5px] justify-center pb-[10px]">
+            <div className="flex items-center gap-2.5 text-[16px] text-white font-semibold whitespace-nowrap text-center tracking-[1px] leading-none justify-center">
+              <div className="self-stretch my-auto">Mais de 5.000 cópias vendidas!</div>
+            </div>
+          </div>
+
           <div className="flex w-full gap-[5px] justify-center">
             <div className="flex items-center gap-2.5 text-sm text-white font-semibold whitespace-nowrap text-center tracking-[1px] leading-none justify-center">
               <div className="self-stretch my-auto">4,9</div>
@@ -41,7 +48,7 @@ const Hero = () => {
               />
             </div>
             <div className="flex items-center gap-2.5 text-sm text-white font-semibold whitespace-nowrap text-center tracking-[1px] leading-none justify-center">
-              <div className="self-stretch my-auto">22.021</div>
+              <div className="self-stretch my-auto">2.021</div>
             </div>
           </div>
           
@@ -107,6 +114,12 @@ const Hero = () => {
               alt="Livraria logo"
               className="aspect-[1.64] object-contain w-[41px] self-stretch shrink-0 my-auto"
             />
+          </div>
+
+          <div className="flex w-full gap-[5px] justify-center pt-[20px]">
+            <div className="flex items-center gap-2.5 text-sm text-white font-semibold whitespace-nowrap text-center tracking-[1px] leading-none justify-center">
+              <div className="self-stretch my-auto"><i>"Intenso e brilhante!"</i> - Amazon Awards</div>
+            </div>
           </div>
         </div>
       </div>

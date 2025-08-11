@@ -6,32 +6,34 @@ const MiddleCTA = () => {
   };
 
   return (
-    <section className="bg-black min-h-[266px] w-full text-base text-white text-center">
-      <div className="w-full flex-1 px-4 py-6">
-        <header className="w-full text-[25px] font-extrabold leading-[1.6] tracking-[0.5px]">
-          <h2>Sua virada começa agora</h2>
-        </header>
-        
-        <p className="min-h-[50px] w-full font-medium leading-[25px] mt-3.5 tracking-[0.5px]">
-          Um guia direto para quem quer
-          <br />
-          <span className="font-bold">mudar de vida</span> com{" "}
-          <span className="font-bold">Deus</span> no centro.
-        </p>
-        
-        <div className="flex w-full items-stretch text-[rgba(18,23,20,1)] font-bold leading-none justify-center flex-1 h-full mt-3.5">
-          <div className="flex min-w-60 w-[357px] flex-col items-center justify-center">
-            <button 
-              onClick={handleClick}
-              className="bg-[rgba(20,226,90,1)] shadow-[2px_4px_4px_rgba(0,0,0,0.25)] flex min-w-[84px] min-h-[52px] w-[280px] max-w-full items-center overflow-hidden justify-center px-4 rounded-[100px] hover:bg-[rgba(18,203,81,1)] transition-colors cursor-pointer"
-            >
-              <span className="self-stretch w-[220px] overflow-hidden my-auto">
-                Quero meu livro 
-              </span>
-            </button>
-          </div>
-        </div>
+    <section className="bg-black w-full text-white text-center py-8 px-4 flex flex-col items-center">
+      <h2 className="text-2xl md:text-3xl font-extrabold mb-3">Não é apenas um livro!</h2>
+      <p className="max-w-xl mx-auto text-base md:text-lg mb-6 font-medium">
+        Programa <span className="font-bold">completo de 100 dias</span> que une inspiração, fé e ação para <span className="font-bold">transformar</span> sua vida de dentro para fora.
+      </p>
+      <div className="mb-6">
+        <span className="text-lg font-bold">Peça <span className="font-extrabold">hoje mesmo</span> e receba também:</span>
       </div>
+      <ul className="flex flex-col gap-3 items-start mx-auto mb-8 max-w-md">
+        <li className="flex items-center text-left text-base md:text-lg">
+          <img src="/public/images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
+          Livro: Orações de Poder
+        </li>
+        <li className="flex items-center text-left text-base md:text-lg">
+          <img src="/public/images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
+          Livro: Afirmações para a Abundância
+        </li>
+        <li className="flex items-center text-left text-base md:text-lg">
+          <img src="/public/images/check-icon.svg" alt="check" className="w-6 h-6 mr-2" />
+          Planner de 100 dias para o Sucesso
+        </li>
+      </ul>
+      <button
+        onClick={handleClick}
+        className="bg-[rgba(20,226,90,1)] hover:bg-[rgba(18,203,81,1)] transition-colors text-black font-bold rounded-full px-8 py-4 text-lg shadow-md min-w-[260px]"
+      >
+        Quero o pacote completo
+      </button>
     </section>
   );
 };
